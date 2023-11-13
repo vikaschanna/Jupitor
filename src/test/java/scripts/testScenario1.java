@@ -1,12 +1,5 @@
 package scripts;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
-
 import org.testng.annotations.Test;
 
 import GenericUtility.BaseClass;
@@ -41,7 +34,6 @@ public class testScenario1 extends BaseClass {
 	@Test
 	public void test3() {
 		HomePage h = new HomePage(driver);
-//		ContactsPage c = new ContactsPage(driver);
 		ShopPage s = new ShopPage(driver);
 		CartPage cp = new CartPage(driver);
 		
@@ -64,11 +56,7 @@ public class testScenario1 extends BaseClass {
 			System.out.println("product rate is verified");
 		}else {
 			System.out.println("product rate mismatched");
-		}
-		
-//		Map<Object, Object> m = new HashMap<Object, Object>();
-		
-		
+		}		
 		
 	}
 }
