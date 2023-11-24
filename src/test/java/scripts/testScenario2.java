@@ -6,5 +6,6 @@ public class testScenario2 {
   @Test
   public void test(){
     System.out.println("hi");
+    System.out.println("hello");
   }
 }
